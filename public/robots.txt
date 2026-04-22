@@ -1,0 +1,25 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+
+# 与 generateMetadata 中 noindex 策略一致
+Disallow: /admin
+Disallow: /zh/login
+Disallow: /en/login
+Disallow: /zh/profile
+Disallow: /en/profile
+Disallow: /zh/favorites
+Disallow: /en/favorites
+
+Sitemap: https://realrealbali.com/sitemap.xml
